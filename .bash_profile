@@ -10,7 +10,7 @@ if [ -f ~/.token ]; then
         echo "Warning: .token file has too open permissions"
     fi
 fi
-
+# nothing here
 # Change umask
 umask 007
 
